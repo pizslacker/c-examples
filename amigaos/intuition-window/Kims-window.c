@@ -21,7 +21,7 @@ int main() {
     msg = GT_GetIMsg(myWindow->UserPort);          /* Get message data    */ 
     msgClass = msg->Class;                         /* What has been clicked? */
     GT_ReplyIMsg(msg);                             /* Close message */
-    if (msgClass == IDCMP_CLOSEWINDOW) {           /* Check here if Close    Window selected */
+    if (msgClass == IDCMP_CLOSEWINDOW) {           /* Check here if Close Window selected */
         CloseWindow(myWindow);                     /* Close window    */ 
         closewin = TRUE;
     }
