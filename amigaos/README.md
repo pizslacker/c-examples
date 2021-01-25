@@ -36,6 +36,7 @@ Wrapper-script for compiling AmigaOS binaries with VBCC.
 
 ## Environment variables
 
+Add this snippet to the end of your `.bashrc` file.
 ```
 # AmigaOS - C cross-development env
 export VBCC=~/amiga_sdk/vbcc
