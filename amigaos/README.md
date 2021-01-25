@@ -2,7 +2,7 @@
 
 This folder contains instructions on setting up C cross-development in Linux for AmigaOS and sample source-code + m68k binaries.
 
-You will need LHA to uncompress the Amiga-specific archives (*.lha).
+You will need (open-source version of) LHA to uncompress the Amiga-specific archives (*.lha).
 
 ## AmigaOS - C cross-development requirements
 
