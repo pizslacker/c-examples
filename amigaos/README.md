@@ -15,9 +15,7 @@ wget http://server.owl.de/~frank/tags/vbcc0_9e.tar.gz
 
 ### Compile targets (m68k/amigaos)
 wget http://server.owl.de/~frank/vbcc/2014-12-30/vbcc_target_m68k_amigaos.lha
-
 wget http://server.owl.de/~frank/vbcc/2015-06-04/vbcc_target_m68k-amigaos-v4.lha
-
 wget http://server.owl.de/~frank/vbcc/2015-11-22/vbcc_target_m68k-amigaos_P2.lha
 
 ### VASM
