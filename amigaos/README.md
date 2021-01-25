@@ -9,6 +9,7 @@ The following packages are required to set up a cross-compiler environment for A
 For a step-by-step tutorial on how to set this all up, check out this YouTube-video by Wei-ju Wu:
 [Cross Development for the Amiga with VBCC](https://www.youtube.com/watch?v=vFV0oEyY92I&ab_channel=Wei-juWu)
 
+```
 ### Cross-compiler
 wget http://server.owl.de/~frank/tags/vbcc0_9e.tar.gz
 
@@ -27,6 +28,7 @@ wget http://sun.hasenbraten.de/vlink/release/vlink.tar.gz
 
 ### NDK 3.9
 wget http://www.haage-partner.de/download/AmigaOS/NDK39.lha
+```
 
 ## Environment variables
 
