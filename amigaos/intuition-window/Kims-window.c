@@ -18,11 +18,11 @@ int main() {
    TAG_DONE);
  while (closewin == FALSE) {                       /* Run program until window is closed */
     Wait(1L << myWindow->UserPort->mp_SigBit);     /* Wait for an event! */
-    msg = GT_GetIMsg(myWindow->UserPort);          /* Get message data    */ 
+    msg = GT_GetIMsg(myWindow->UserPort);          /* Get message data */ 
     msgClass = msg->Class;                         /* What has been clicked? */
     GT_ReplyIMsg(msg);                             /* Close message */
     if (msgClass == IDCMP_CLOSEWINDOW) {           /* Check here if Close Window selected */
-        CloseWindow(myWindow);                     /* Close window    */ 
+        CloseWindow(myWindow);                     /* Close window */ 
         closewin = TRUE;
     }
    }
