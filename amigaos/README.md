@@ -30,6 +30,10 @@ wget http://sun.hasenbraten.de/vlink/release/vlink.tar.gz
 wget http://www.haage-partner.de/download/AmigaOS/NDK39.lha
 ```
 
+## amigacc
+
+Wrapper-script for compiling AmigaOS binaries with VBCC.
+
 ## Environment variables
 
 ```
