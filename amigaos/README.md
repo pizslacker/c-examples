@@ -6,7 +6,7 @@ This folder contains instructions on setting up C cross-development in Linux for
 
 The following packages are required to set up a cross-compiler environment for AmigaOS on Linux.
 
-For a tutorial on how to set this all up, check out this YouTube-video by Wei-ju Wu:
+For a step-by-step tutorial on how to set this all up, check out this YouTube-video by Wei-ju Wu:
 [Cross Development for the Amiga with VBCC](https://www.youtube.com/watch?v=vFV0oEyY92I&ab_channel=Wei-juWu)
 
 ### Cross-compiler
