@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+if [ "$1" != "" ] && [ "$2" != "" ]; then
+   echo "Executing: vc +kick13 -c99 -I$NDK_INC $1 -lamiga -lauto -o $2"
+   vc +kick13 -c99 -I$NDK_INC "$1" -lamiga -lauto -o "$2"
+   if [ "$?" == "0" ]; then
+      echo "Compile succeeded!"
+      exit 0;
+   else
+      echo "Compile failed. See error(s) for details."
+      exit 1;
+   fi
+else
+   echo "Missing input / output names!"
+   exit 1;
+fi
